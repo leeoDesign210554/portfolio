@@ -1,0 +1,120 @@
+/* project header */
+.design-project{
+padding-top: 140px;
+    color: white;
+}
+.design-project a{
+    margin: auto;
+}
+.page-project-header{
+    display: flex;
+  align-items: center;
+  width: 100%;
+  height: 288px;
+  position: relative;
+}
+
+.page-project-header_item{
+position: absolute;
+top: 0;
+margin-right: 126px;
+
+}
+.page-project-header_item h5{
+    color: var(--fuck-light--color);
+    font-family: regular;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+.page-project-header_item h1{
+    text-transform: uppercase;
+    font-size: 96px;
+}
+.page-project-header .ceative-btn{
+    width: 224px;
+    height: 224px;
+    border-radius: 100%;
+    color: white;
+    background: none;
+    border: 1px dashed var(--fuck-light--color);
+    font-size: 16px;
+    font-family: regular;
+    font-weight: 100;
+    line-height: 1.68;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+
+}
+.page-project-header  .ceative-btn:hover{
+    background: var(--yellow--color);
+    color: black;
+font-family: medium;
+}
+.page-project-header h6{
+    width: 396px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: var(--fuck-light--color);
+    font-family: regular;
+    font-weight: 100;
+    line-height: 1.68;
+}
+
+/* project-line */
+
+.project-header-body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 240px  ;
+    padding-bottom: 140px;
+}
+.project-header-body a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.project-header-body_item{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.project-header-body_item h4:hover{
+    color: var(--yellow--color);
+    transition: .5s ease;
+}
+.project-header-body_item h4{
+    flex-basis: 50%;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-family: regular;
+    font-weight: 100;
+}
+.project-header-body_item h5{
+ position: absolute;
+ right: 0;
+ font-size: 20px;
+ font-family: regular;
+ font-weight: 100;
+}
+.project-header-body_item h6{
+    color: rgba(102, 102, 102, 1);
+    font-size: 20px;
+    font-family: regular;
+    font-weight: 100;
+}
+.project-header-body_item_line{
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin:100px 0;
+}
+
+.btn-project{
+    padding-bottom: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

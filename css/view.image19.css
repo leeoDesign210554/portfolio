@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.view-image-full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+position: relative;
+}
+.view-image-full::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   z-index: -1;
+   background-image: url(../img/creations/creation-19.jpg);
+   /* background-color: black; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   position: absolute;
+   z-index: -1;
+   background-size: cover;
+   background-position: center;
+   -webkit-filter: blur(5px);
+   -moz-filter: blur(5px);
+   -o-filter: blur(5px);
+   -ms-filter: blur(5px);
+   filter: blur(8px);
+
+}
+.view-image-view{
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+}
+.fas{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-size: 24px;
+    opacity: 50%;
+    transition: .5s ease;
+}
+.fas:hover{
+    opacity: 100%   ;
+}
+.fa-chevron-left{
+left: 10%;
+}
+.fa-chevron-right{
+    right: 10%;
+}
+.fa-times{
+    right: 10%;
+    top: 2%;
+
+}
